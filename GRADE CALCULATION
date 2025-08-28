@@ -1,0 +1,30 @@
+// GRADE CALCULATION
+
+#include <stdio.h>
+int main() {
+    float X;
+printf(" ENTER MARKS (OUT OF 100):  ");
+    scanf("%f", &X);
+       if(X<0||X>100)
+     printf("INVALID");
+     else if (X>=90)
+        printf("GRADE A");
+        else if (X>=80)
+        printf("GRADE B");
+              else if (X>=70)
+        printf("GRADE C");
+                else if (X>=60)
+        printf("GRADE D");
+               else if (X>=50)
+        printf("GRADE E");
+         else 
+         printf("FAIL");
+              return 0;
+}
+
+/*OUTPUT
+ ENTER MARKS (OUT OF 100):  76
+GRADE C
+
+=== Code Execution Successful ===
+*/
