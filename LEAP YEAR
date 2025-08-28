@@ -1,0 +1,24 @@
+// LEAP YEAR
+
+#include <stdio.h>
+
+int main() {
+    int X;
+
+    printf(" ENTER NUMBER ");
+    scanf("%d", &X);
+  
+     if ((X % 400 == 0) || ((X % 4 == 0) && (X % 100 != 0)))
+        printf("GIVEN NO. IS LEAP YEAR ");
+     
+     else 
+         printf("GIVEN NO. IS NOT LEAP YEAR");
+      return 0;
+}
+
+/* OUTPUT
+ ENTER NUMBER 7008
+GIVEN NO. IS LEAP YEAR 
+
+=== Code Execution Successful ===
+*/
