@@ -1,0 +1,29 @@
+// GREATER BETWEEN TWO NUMBER 
+
+#include <stdio.h>
+
+int main() {
+    int X,Y;
+    // int Y
+    printf(" ENTER NO. "); 
+    scanf("%d", &X);// enter first no.
+    printf("ENTER ANOTHER NO. ");
+    scanf("%d", &Y);// enter second no.
+    
+     if (X>Y) {
+        printf("%d is greater.\n", X);
+     }
+     else 
+       { 
+           printf("%d is greater.\n", Y);
+       }
+
+    return 0;
+}
+
+/* OUTPUT
+ENTER NO. 7
+ENTER ANOTHER NO. 18
+18 is greater.
+=== Code Execution Successful ===
+*/
