@@ -1,0 +1,41 @@
+// GREATER BETWEEN 3 NUMBER
+
+#include <stdio.h>
+
+int main() {
+    int X,Y,Z;
+    // int Y
+    printf(" ENTER NO. "); //Enter first variable
+    scanf("%d", &X);
+    printf("ENTER ANOTHER NO. ");//Enter second variable
+    scanf("%d", &Y);
+    printf("ENTER ANOTHER NO. ");// enter third variable
+    scanf("%d", &Z);
+     if (X>Y)
+     {  
+      if(X>Z)
+         printf("%d is greater. \n" , X);
+         if(X<Z)
+          printf("%d is greater.\n", Z);
+     
+     }
+     else 
+       { if(Y>Z)
+           printf("%d is greater.\n", Y);
+           else 
+           printf("%d is greater .\n",Z);
+           
+       }
+
+    return 0;
+}
+
+/* OUTPUT
+ENTER NO. 45
+ENTER ANOTHER NO. 7
+ENTER ANOTHER NO. 18
+45 is greater. 
+
+
+=== Code Execution Successful === 
+*/
