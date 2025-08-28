@@ -1,0 +1,28 @@
+// POSITIVE NEGATIVE AND ZERO
+#include <stdio.h>
+
+int main() {
+    int X;
+
+    printf(" ENTER NO. ");
+    scanf("%d", &X);
+  
+     if (X>0) {
+        printf("%d is positive.\n", X);
+     }
+     else if(X<0){
+         printf("%d is negative. \n" , X);
+     }
+     else 
+       { 
+           printf("%d is zero.\n", X);
+       }
+
+    return 0;
+}
+
+/*OUTPUT
+ENTER NO. -6
+-6 is negative. 
+=== Code Execution Successful ===
+*/
