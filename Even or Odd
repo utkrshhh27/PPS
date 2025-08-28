@@ -1,0 +1,27 @@
+// PROGRAM TO CHECK EVEN OR ODD
+
+
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    printf(" enter any no.");
+    scanf("%d", &num); //Tking input in variable
+
+
+    if (num % 2 == 0) {
+        printf("%d is Even.\n", num);// printing an even no.
+    } 
+    else {
+        printf("%d is Odd.\n", num);// printing an odd no.
+    }
+
+    return 0;
+}
+
+/* OUTPUT
+enter any no.6
+6 is Even.
+=== Code Execution Successful ===
+*/
