@@ -1,0 +1,58 @@
+#include <stdio.h>
+
+int main() {
+    int a, b;
+
+    
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+
+    printf("\n--- Arithmetic Operations ---\n");
+    printf("Addition: %d + %d = %d\n", a, b, a + b);
+    printf("Subtraction: %d - %d = %d\n", a, b, a - b);
+    printf("Multiplication: %d * %d = %d\n", a, b, a * b);
+    printf("Division: %d / %d = %d\n", a, b, a / b);
+    printf("Modulus: %d %% %d = %d\n", a, b, a % b);
+
+    printf("\n--- Relational Operations ---\n");
+    printf("%d > %d : %d\n", a, b, a > b);
+    printf("%d < %d : %d\n", a, b, a < b);
+    printf("%d == %d : %d\n", a, b, a == b);
+    printf("%d != %d : %d\n", a, b, a != b);
+    printf("%d >= %d : %d\n", a, b, a >= b);
+    printf("%d <= %d : %d\n", a, b, a <= b);
+
+    printf("\n--- Logical Operations ---\n");
+    printf("(%d && %d) : %d\n", a, b, a && b);
+    printf("(%d || %d) : %d\n", a, b, a || b);
+    printf("!%d : %d\n", a, !a);
+
+    return 0;
+}
+/* OUTPUT 
+Enter two numbers: 10 9
+
+--- Arithmetic Operations ---
+Addition: 10 + 9 = 19
+Subtraction: 10 - 9 = 1
+Multiplication: 10 * 9 = 90
+Division: 10 / 9 = 1
+Modulus: 10 % 9 = 1
+
+--- Relational Operations ---
+10 > 9 : 1
+10 < 9 : 0
+10 == 9 : 0
+10 != 9 : 1
+10 >= 9 : 1
+10 <= 9 : 0
+
+--- Logical Operations ---
+(10 && 9) : 1
+(10 || 9) : 1
+!10 : 0
+
+
+=== Code Execution Successful ===
+*/
+
