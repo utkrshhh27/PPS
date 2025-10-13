@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main() {
+    printf("----- Student Profile -----\n");
+    printf("Name: Utkarsh Soni\n");
+    printf("Age: 17 \n");
+    printf("Course: B.Tech (CSE - AIML)\n");
+    printf("University: Chandigarh University\n");
+    return 0;
+}
+/* OUTPUT
+----- Student Profile -----
+Name: Utkarsh Soni
+Age: 17 
+Course: B.Tech (CSE - AIML)
+University: Chandigarh University
+
+
+=== Code Execution Successful ===
+*/
