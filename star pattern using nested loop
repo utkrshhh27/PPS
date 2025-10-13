@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int main() {
+    int i, j, rows;
+
+    // Ask user for number of rows
+    printf("Enter number of rows: ");
+    scanf("%d", &rows);
+
+    printf("----- Triangle Star Pattern -----\n");
+
+    // Outer loop controls number of rows
+    for (i = 1; i <= rows; i++) {
+        // Inner loop prints stars in each row
+        for (j = 1; j <= i; j++) {
+            printf("* ");
+        }
+        printf("\n");  // Move to next line after each row
+    }
+
+    return 0;
+}
+/* OUTPUT 
+Enter number of rows: 5
+----- Triangle Star Pattern -----
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+
+
+=== Code Execution Successful ===
+*/
