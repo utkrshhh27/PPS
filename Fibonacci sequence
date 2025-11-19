@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main(){
+    int i,num,t1=0,t2=1,t3;
+    printf("Enter a number : ");
+    scanf("%d",&num);
+    printf("---FIBONACCI SEQUENCE---\n");
+    
+    for(i=1;i<=num;i++){
+    printf("%d ",t1);
+    t3=t1+t2;
+    t1=t2;
+    t2=t3;
+    }
+    return 0;
+    
+}
+/*OUTPUT
+Enter a number : 8
+---FIBONACCI SEQUENCE---
+0 1 1 2 3 5 8 13 
+
+=== Code Execution Successful ===
+*/
